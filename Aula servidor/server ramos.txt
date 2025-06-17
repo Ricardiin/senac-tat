@@ -1,0 +1,3 @@
+Server files = Arquivos que se manda no servidor tipo "TAT TURMAS" que nos pegamos e compartilhamos entre os outros.
+Raid = raid 1 espelhamento,  mitigar 
+iniar, gerenciamento de disk, MBR=legacy -2tb GPT=Moderno +2tb
