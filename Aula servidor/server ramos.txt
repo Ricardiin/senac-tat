@@ -1,4 +1,4 @@
 Server files = Arquivos que se manda no servidor tipo "TAT TURMAS" que nos pegamos e compartilhamos entre os outros.
 Raid = raid 1 espelhamento,  mitigar 
 iniciar, gerenciamento de disk, MBR=legacy -2tb GPT=Moderno +2tb 
-Raid 5 
+Raid 5 precisa de no minimo 3 discos , botão direto novo volume raid  
