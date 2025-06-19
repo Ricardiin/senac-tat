@@ -2,7 +2,10 @@ tentando testar algo que num teestei antes
 
 -A Segunda Guerra Mundial: Um Conflito Global sem Precedentes
 
-    A Segunda Guerra Mundial foi um dos maiores e mais devastadores conflitos da história da humanidade. Teve início em 1º de setembro de 1939, quando a Alemanha nazista, sob o comando de Adolf Hitler, invadiu a Polônia. Em resposta, o Reino Unido e a França declararam guerra à Alemanha, marcando oficialmente o início do conflito. A guerra se estendeu até 2 de setembro de 1945, envolvendo mais de 70 países e resultando na morte de cerca de 70 milhões de pessoas, entre civis e militares.
+    A Segunda Guerra Mundial foi um dos maiores e mais devastadores conflitos da história da humanidade. Teve início em 1º de setembro de 1939, quando a Alemanha nazista, 
+    sob o comando de Adolf Hitler, invadiu a Polônia. Em resposta, o Reino Unido e a França declararam guerra à Alemanha, marcando oficialmente o início do conflito. 
+    A guerra se estendeu até 2 de setembro de 1945, envolvendo mais de 70 países e resultando na morte de cerca de 70 milhões de pessoas, entre civis e militares.
+    
 -As causas.
 
     As causas da Segunda Guerra Mundial são complexas e multifatoriais. Uma das principais foi o Tratado de Versalhes, assinado em 1919, após o fim da Primeira Guerra Mundial. Esse tratado impôs duras sanções à Alemanha, incluindo perdas territoriais, desmilitarização e pesadas indenizações econômicas. Essas condições humilharam a população alemã e favoreceram o crescimento do nacionalismo e do sentimento revanchista, o que possibilitou a ascensão do nazismo.
