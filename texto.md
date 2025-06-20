@@ -1,6 +1,6 @@
 Testando a extenção .md 
 
-Comando de texto.. digitando qualquer coisa<br>
+<span style="color: red;">Comando de texto.. digitando qualquer coisa<br></span>
 
 
                 日本語
