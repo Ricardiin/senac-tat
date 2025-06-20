@@ -21,7 +21,7 @@ Testando a extenção .md
 じゅう 
 
 
-            <span style="color: red;">かんじ.</span>
+            `#ff0000` かんじ.
 
               
      一
