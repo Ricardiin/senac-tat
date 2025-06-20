@@ -21,7 +21,7 @@ Testando a extenção .md
 じゅう 
 
 
-              <span style="color: red;">かんじ.</span>
+            <span style="color: red;">かんじ.</span>
 
               
      一
