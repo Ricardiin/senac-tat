@@ -21,7 +21,7 @@ Comando de texto.. digitando qualquer coisa<br>
 じゅう 
 
 
-              <span style="color: red;">かんじ</span>. 
+              <span style="color: red;">かんじ.</span>
 
               
      一
