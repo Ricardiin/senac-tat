@@ -4,7 +4,7 @@ Comando de texto.. digitando qualquer coisa<br>
 
 
                 日本語
-!健全なる魂は、<br>健全なる精神党、<br>健全なる肉体に宿売る。<br>
+健全なる魂は、<br>健全なる精神党、<br>健全なる肉体に宿売る。<br>
 
                             日本
                                         日本人
@@ -21,14 +21,14 @@ Comando de texto.. digitando qualquer coisa<br>
 じゅう
                 かんじ <br>
 
-    ! 一
-    ! 二
-        ! 三 
-            ! 四
-                ! 五
-                    ! 六
-                        ! 七
-                            ! 八
-                                ! 九
-                                    !十
+     一
+         二
+         三 
+             四
+                 五
+                     六
+                         七
+                             八
+                                 九
+                                    十
 ありがとう　ございます。
