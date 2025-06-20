@@ -20,7 +20,7 @@ Comando de texto.. digitando qualquer coisa<br>
 きゅう
 じゅう
                 かんじ <br>
-! 一
+    ! 一
     ! 二
         ! 三 
             ! 四
