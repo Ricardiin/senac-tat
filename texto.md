@@ -18,7 +18,7 @@ Comando de texto.. digitando qualquer coisa<br>
 なな
 はち
 きゅう
-じゅう
+じゅう <br>
               <span style="color: red;">  かんじ </span><br>
 
      一
