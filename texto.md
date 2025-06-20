@@ -23,12 +23,12 @@ Comando de texto.. digitando qualquer coisa<br>
 
      一
          二
-         三 
-             四
-                 五
-                     六
-                         七
-                             八
-                                 九
-                                    十
+             三 
+                 四
+                        五
+                    六
+                七
+            八
+         九
+    十
 ありがとう　ございます。
