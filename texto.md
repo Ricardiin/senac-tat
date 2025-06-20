@@ -21,8 +21,7 @@ Testando a extenção .md
 きゅう
 じゅう <br>
 
-'''python 
----かんじ. 
+** かんじ.** 
 
               
      一
