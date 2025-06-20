@@ -19,7 +19,7 @@ Comando de texto.. digitando qualquer coisa<br>
 はち
 きゅう
 じゅう
-                かんじ <br>
+              <span style="color: red;">  かんじ </span><br>
 
      一
          二
