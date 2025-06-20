@@ -21,7 +21,7 @@ Testando a extenção .md
 じゅう 
 
 
-            `#ff0000` かんじ.
+            `#ff0000` かんじ.`#ff0000` 
 
               
      一
