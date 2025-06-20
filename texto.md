@@ -1,7 +1,8 @@
 Testando a extenção .md 
 
-<span style="color: red;">Comando de texto.. digitando qualquer coisa.<br></span>`#ff0000 aaa` 
+<span style="color: red;">Comando de texto.. digitando qualquer coisa.<br></span>
 
+<span style="color:red;">your text here > </span>
 
                 日本語
 健全なる魂は、<br>健全なる精神党、<br>健全なる肉体に宿売る。<br>
@@ -21,7 +22,7 @@ Testando a extenção .md
 じゅう 
 
 
-            `#ff0000` かんじ.`#ff0000` 
+             かんじ. 
 
               
      一
