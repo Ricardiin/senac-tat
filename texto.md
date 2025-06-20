@@ -22,7 +22,7 @@ Comando de texto.. digitando qualquer coisa<br>
 
 
               <span style="color: red;"> かんじ </span> 
-              <br>
+              
               
      一
          二
