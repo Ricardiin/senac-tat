@@ -2,3 +2,7 @@ Server files = Arquivos que se manda no servidor tipo "TAT TURMAS" que nos pegam
 Raid = raid 1 espelhamento,  mitigar 
 iniciar, gerenciamento de disk, MBR=legacy -2tb GPT=Moderno +2tb 
 Raid 5 precisa de no minimo 3 discos , botão direto novo volume raid  
+
+LINUX ip virtual: 172.16.42.102
+windows VR: 172.16.42.103
+SENAC PC: 172.16.42.101
