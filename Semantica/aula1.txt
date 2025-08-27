@@ -1,0 +1,77 @@
+Aula 1 
+
+Desenvolvimento Front-end (App ou site hospedado)
+
+material de apoio:
+
+Passo 1 : Preparação do ambiente  de desenvolvimento
+- Instalar o VSCode: https://code.visualstudio.com/
+- Instalar a extensão live server (Servidor WEB Local)
+- Google Chrome
+
+Passo 2: Sempre criar uma estrutura de pasta para organizar o projeto 
+Exemplos:
+icon (para armazenar icones)
+img (para armazenar imagens)
+
+Passo 3: Criar o wireframe (template) do projeto antes de iniciar a programação
+- Dica: 
+briefing (planejamento)
+figma
+
+____________________________
+
+html (hyper text markup language)
+Linguagem de marcação de texto
+
+<tag></tag> interpretado pelo navegador de internet
+
+Obrigatorio uma pagina inicial chamada index.html
+
+Dica: ! (no VsCode gera um template do html5)
+
+<!-- --> Tag de comentario (não é processada pelo navegador),
+
+________________________________________________________
+
+Super Dica: 
+1
+- Combinação de teclas <alt><shift><f>
+"alinhamento automatico do codigo (identação)"
+- Se o codigo fica vermelho existe um erro de sintaxe (digitação)
+________________________________________________________
+
+seo (Técnicas para optimizar o site ) (Rank na primeira pagina)
+"Palavras Chaves"
+
+1° Titulo do site
+2º Descrição do site (Maximo 150 caracteres)
+3º Niveis de Subtitulo - heading tags (h1, h2 , h3, h4, h5 e h6)
+    - <h1> 1 por pagina
+    - <h2> Hierarquia
+        <h3>
+4º Paragrafo <p> - Nunca deixar um texto sem paragrafo
+5º Tags semanticas para organização do conteudo 
+    <header>Cabeçalho</header>
+    <nav>Menu</nav>
+    <main>Conteudo principal (l main por pagina)</main>
+    <section>Organização do conteudo</sextion>
+    <footer>Rodape</footer>
+
+    ________________________________________________________
+
+Tags não semanticas (usadas no layout)
+<div></div> (container)
+<span></span> (Exceção a regra de um layout)
+
+________________________________________________________
+    
+Identificadores
+id (#) - Usado uma unica vez
+class (.) - reuso
+
+____________________________
+
+Navegação na estrutura de pastas
+./ (avançar um nivel)
+../ (retroceder um nivel)
