@@ -1,4 +1,9 @@
-# senac-tat
-Repositorio das Aulas do Técnico em Informática do SENAC Tatuapé
+![GitHub License](https://img.shields.io/github/license/Ricardiin/one-page?style=social)
 
-Trabalhando com o Git, Vscode no Linux Mint e no Windows 10
+
+# Hamburgueria
+Site One-Page de uma Hamburgueria para Oferecer hambúrgueres artesanais com ingredientes frescos e de alta qualidade, proporcionando uma experiência saborosa e descontraída a cada cliente. Divulgação do Projeto do SENAC
+
+
+# Autor
+Ricardin

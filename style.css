@@ -1,0 +1,560 @@
+/**
+    folha de estilo do professor.com
+    @author 
+*/
+
+/* Layout __________ */
+
+/* Variaveis */
+:root {
+    --azulClaro: #9cdcfe;
+    --azulMedio: #3498db;
+    --branco: #ffff;
+    --pao: #F9A825;
+    --marrom: #d2922e;
+    --preto: #000000;
+    --dourado: #ffc90e;
+}
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+      overflow-x: hidden; /* impede que o site “vaze” lateralmente */
+
+}
+
+main {
+    min-height: 100vh;
+    background: url(img/banner.jpg) no-repeat center center;
+    background-size: fixed;
+}
+
+
+
+.container {
+    display: flex;
+    margin: 0 auto;
+}
+
+/* Botão */
+.btn {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: var(--pao);
+    padding: 10px 40px;
+    color: var(--Branco);
+    border-radius: 25px;
+    border: 2.5px solid var(--Branco);
+}
+
+/* Container do Cardápio */
+#wireframe {
+  background: url('img/texturawire.jpg') center/cover no-repeat;
+  color: var(--branco);
+  padding: 80px 0;
+  display: flex;
+  justify-content: center; /* centraliza todo o conteúdo horizontalmente */
+  padding: 50px 10px;
+}
+
+/* Alinhamento interno igual ao "Sobre nós" */
+.Container.Flex2 {
+  width: 100vw; /* mesma largura do conteúdo principal */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px; /* trava a largura para não esticar demais */
+}
+
+/* Texto */
+#textoWire {
+  flex: 1;
+  min-width: 300px;
+}
+
+#textoWire h2 {
+  font-size: 2.0rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#textoWire p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+#textoWire .btn {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: var(--pao);
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 28px;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  transition: 0.3s;
+}
+
+#textoWire .btn:hover {
+  background-color: #ffb300;
+}
+
+/* QR Code */
+#qrcode img {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+/* FIMM - LAYOUT _______________ */
+
+
+/*Smartphone portrait ___________*/
+
+/*Cabeçalho */
+header {
+    height: 65px;
+    background-color: var(--pao);
+}
+
+.logo img {
+    width: 128px;
+    height: 128px;
+}
+
+#check {
+    display: none;
+    /*esconder um elemento*/
+}
+
+label {
+    font-size: 3rem;
+    color: rgba(225, 236, 241, 0.75);
+    position: fixed;
+    top: 5px;
+    right: 15px;
+}
+
+nav ul {
+    list-style: none;
+    height: 100%;
+    position: fixed;
+    top: 60px;
+    background-color: rgba(34, 30, 16, 0.603);
+    width: 65%;
+    right: -65%;
+    /*ajustar com width */
+    transition: all 0.7s;
+}
+
+/* Ação para a caixa check */
+/* Quando selecionada mudar ul */
+#check:checked~ul {
+    right: 0px;
+}
+
+nav ul li {
+    padding: 20px;
+    border-bottom: 1px solid var(--marrom);
+    text-align: right;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+
+/* Principal */
+main {
+    height: 50vh;
+    background: url(img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+main .container {
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    color: var(--Branco);
+    font-family: "Koulen", sans-serif;
+    text-shadow: 0px 5px 10px var(--pao), 2px 2px 4px, 0px 10px 10px;
+}
+
+main h2 {
+    color: var(--Branco);
+    font-size: 1.85rem;
+    font-weight: 900;
+    text-shadow: 0px 5px 10px var(--pao), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    
+}
+
+/* Destaque */
+#destaque {
+    padding: 50px 10px;
+    background: url(./img/wal2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#destaque .container {
+    flex-direction: column;
+
+}
+
+#hero {
+    text-align: center;
+}
+
+#hero img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 25px;
+}
+
+.hero-text h2 {
+    font-size: 1.6rem;
+    color: var(--dourado);
+    margin-bottom: 15px;
+    
+}
+
+.hero-text p {
+    color: var(--branco);
+    font-style: italic;
+    font-weight: 500;
+    
+}
+
+.topic {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+.topic p {
+    margin-left: 15px;
+}
+
+/* Sobre */
+
+#sobre {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+    background-color: rgb(51, 36, 36);
+    padding: 50px 10px;
+}
+#sobre h2 {
+    color: var(--dourado);
+}
+
+#sobre p {
+    margin-bottom: 25px;
+}
+
+#sobre .container {
+    flex-direction: column;
+}
+
+#about p {
+    color: white;
+    font-style: italic;
+}
+
+#about p {
+    font-weight: 500;
+}
+
+/* #about h2 {
+    margin-bottom: 15px;
+} */
+
+#video iframe {
+    width: 340px;
+    height: 191px;
+    border: 0;
+}
+
+/* Wireframe */
+#wireframe {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+    padding: 50px 0px;
+    background: url(img/wire.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 0;
+}
+
+#wireframe a {
+    border: 2px solid var(--branco);
+}
+
+#textoWire {
+    margin-left: 50px;
+    color: var(--branco);
+    padding: 0px 10px;
+}
+
+#textoWire h2 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+#textoWire p {
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+}
+
+#textoWire span {
+    display: none;
+}
+
+#qrcode {
+    color: black;
+    display: none;
+}
+/* botao celular*/
+.botao{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: var(--pao);
+    padding: 10px 40px;
+    color: var(--Branco);
+    border-radius: 25px;
+    border: 2.5px solid var(--Branco);
+}
+/*FIM DO SMARTPHONE PORTRAIT ________*/
+
+
+/*Smartphone landscape _____________*/
+@media (min-width: 576px) {
+
+    /* Layout */
+    .container {
+        max-width: 560px;
+    }
+
+    /* Cabeçalho */
+    nav ul {
+        width: 40%;
+        /* Ajustar com Width */
+        right: -40%;
+    }
+
+    /* Principal */
+    main {
+        height: 75vh;
+    }
+
+    main h1 {
+        font-size: 2.75rem;
+    }
+
+    main h2 {
+        font-size: 2.5rem;
+    }
+
+    /* Destaque */
+    #destaque {
+        padding: 50px 0px;
+    }
+
+    #destaque .container {}
+
+    #hero {
+        text-align: left;
+    }
+
+    #hero img {
+        width: 200px;
+        height: 200px;
+        margin: 0px 30px 0px 0px;
+    }
+
+    .topic {
+        display: none;
+    }
+
+
+    /* sobre */
+    #video iframe {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+/*FIM DO Smartphone landscape___________*/
+
+
+/*Tablet portrait_______________*/
+@media (min-width: 768px) {
+
+    /* Layout */
+    .container {
+        max-width: 720px;
+    }
+
+    /* Principal */
+    main h1 {
+        font-size: 3.9rem;
+    }
+
+    main h2 {
+        font-size: 3rem;
+    }
+
+}
+
+/*fim Tablet portrait_________*/
+
+/* Tablet landscape___________*/
+@media (min-width: 992px) {
+
+    /* Layout */
+    .container {
+        max-width: 960px;
+    }
+
+}
+
+/* FIM Tablet landscape__________*/
+
+/* Notebook / PC - HD ___________*/
+@media (min-width: 1200px) {
+
+    /* Layout */
+    .container {
+        justify-content: space-between;
+        max-width: 1140px;
+    }
+
+    /* Cabeçalho */
+    header {
+        height: 100px;
+    }
+
+    .logo img {
+        width: 194px;
+        height: 194px;
+    }
+
+    label {
+        display: none;
+    }
+
+    nav ul {
+        position: static;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        margin-top: 20px;
+        /* adc*/
+    }
+
+    nav ul li {
+        float: left;
+        border: 0;
+    }
+
+    nav ul li a:hover {
+        color: #000000;
+    }
+
+    /* Principal*/
+    main {
+        height: 89vh;
+    }
+
+    /* Destaque */
+    /*#destaque {
+         background-attachment: fixed; 
+    } */
+
+    #hero img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .hero-text h2 {
+        font-size: 2rem;
+    }
+
+    .topic {
+        display: flex;
+    }
+
+    /* sobre */
+
+    #sobre.container{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    /* Wireframe */
+  #wireframe {
+    background-attachment: fixed;
+    
+  }
+
+  #wireframe span {
+    display: inline;
+  }
+
+  #qrcode {
+    display: inline;
+  }
+
+  #qrcode img {
+    width: 225px;
+    height: 225px;
+  }
+}
+
+/* FIM Notebook / PC - HD */
+
+
+/* Notebook / PV / TV - Full HD ou 4k */
+@media (min-width: 1400px) {
+
+    /* Layout */
+    .container {
+        max-width: 1320px;
+    }
+
+    /*Principal */
+    main h1 {
+        font-size: 6rem;
+    }
+
+    main h2 {
+        font-size: 4rem;
+    }
+}
+
+
+/*FIM  Notebook / PV / TV - Full HD ou 4k */
