@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portifolio de nome de voces,desenvolver front-end">
+    <meta name="keywords" content="front-end, html5, css3, cisco, windows, Linux, bootstrap, photoshop, web..">
+    <title>Meu Portifólio</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- CSS DA PASTA BOOkSTRAP-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <!-- bg-*** muda a cord do menu -->
+    <header class="container">
+        <nav class="navbar navbar-expand-lg bg-info">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Portifolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#sobre">Sobre mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projetos">Projetos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#contatos" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Contatos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="Procurar">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- *** colocou py-3 e gy-3 editou as class no h1 e h2 -->
+    <main class="container py-3" id="sobre">
+        <div class="row gy-3 align-items-center">
+            <!-- TEXTOS-->
+            <div class="col-md-6 col-lg-5 bg-light">
+                <h1 class="mb-2">Olá" eu sou Richard</h1>
+                <h2 class="text-secondary">front-end Developer</h2>
+                <p>
+                    Atualmente. Tenho 20 anos. Sou estudante do curso técnico em informática com foco em infraestrutura
+                    de redes e desenvolvimento front-end.
+                </p>
+
+                <!-- ** EDITOU AS LINHAS, div class-->
+
+                <div class="my-3 d-flex flex-wrap gap-2">
+                    <a href="" target="_blank" aria-label="Contratar Sirlene Sanches"
+                        class="btn btn-outline-info">Contrate-me</a>
+                    <a href="https://github.com/Ricardiin/" target="_blank"
+                        aria-label="Perfil do GitHub de Sirlene Sanches" class="btn btn-outline-info">Projetos</a>
+                </div>
+
+
+                <div class="d-flex align-items-center gap-3">
+                    <a href="https://github.com/Ricardiin"><img src="img/github.png"
+                            alt="Perfil do GitHub de Sirlene Sanches">
+                    </a>
+                    <a href="https://www.instagram.com/"><img src="img/instagram.png" alt="Perfil do instagram">
+                    </a>
+                    <a href="https://br.linkedin.com/"><img src="img/linkedin.png" alt="Perfil do Linkedin">
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- SIRLENA 17-->
+            <!-- IMAGEM-->
+
+            <!-- div class, adicionou text-center-->
+
+            <div class="col-md-6 col-lg-5  bg-info text-center ">
+                <img src="img/port.png" class="img-fluid rounded-circle" alt="Foto desconhecido">
+            </div>
+
+        </div>
+
+    </main>
+    <!-- abaixo de main criar uma section-->
+    <section id="projetos">
+        <h1 class="text-center mb-5">Meus projetos
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- PROJETO 1-->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/fotoo.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title">Knucles</h2>
+                            <p class="card-text">Knucles.</p>
+                        </div>
+                        <div class="card-footer text-center mt-3">
+                            <a href="https://github.com/login" target="_blank" class="text-secondary text-decoration-none">
+                                <img src="img/github.png" alt="perfil do github">
+                                <span>Ver no GitHub</span>
+                            </a>
+
+                            <small class="text-body-secondary"></small>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROJETO 2-->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/foto1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title">Sonic</h2>
+                            <p class="card-text">Sonic.</p>
+                        </div>
+                        <div class="card-footer text-center mt-3">
+                            <a href="https://github.com/login" target="_blank"
+                                class="text-secondary text-decoration-none">
+                                <img src="img/linkedin.png" alt="perfil do Linkedin">
+                                <span>Ver no Linkedin</span>
+                            </a>
+                            <small class="text-body-secondary"></small>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROJETO 3-->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/foto2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title">ProfessorRamos</h2>
+                            <p class="card-text">ProfessorRamos cartoon.</p>
+                        </div>
+                        <div class="card-footer text-center mt-3">
+                            <a href="https://www.instagram.com/professorramoscom/" target="_blank"
+                                class="text-secondary text-decoration-none" >
+                                <img src="img/instagram.png" alt="perfil do instagram" >
+                                <span>Ver no instagram</span>
+                            </a>
+                            <small class="text-body-secondary"></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+
+        </h1>
+
+    </section>
+    <!-- *** adicionar outra section // md tamanho da coluna-->
+     <!-- adicionou py-5 e mb-5 na section de contatos-->
+    <section id="contatos" class="container py-5">
+        <h1 class="text-center mb-5">Entre em Contato</h1>
+
+        <div class="row">
+            <div class="col-md-6">
+                <p>
+                    Estou em busca de novas oportunidades para criar, aprender e colaborar. Se quiser trocar ideias ou
+                    discutir um possivel projeto,sera um prazer conversar e construir algo juntos.
+                </p>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <img src="img/email.png" alt="envelope email">
+                        <span>emailaleatorio@gmail.com</span>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/5511955794071" target="_blank" class="text-decoration-none text-dark">
+                            <img src="img/whatsapp.png" alt="Enviar mensagem via Whatsapp">
+                            <span>(11) 95579-4071 </span>
+                        </a>
+                    </li>
+                </ul>
+                <div>
+                    <h2>Siga-me</h2>
+                    <a href="https://github.com/Ricardiin" target="_blank">
+                        <img src="img/github.png" alt="Github">
+                    </a>
+                    <a href="https://linkedin.com/" target="_blank">
+                        <img src="img/linkedin.png" alt="Linkedin">
+                    </a>
+                    <a href="https://instagram.com/" target="_blank">
+                        <img src="img/instagram.png" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <!-- FORMULARIO-->
+                <!-- pegar o formulado no bookstrap  e colocar "formulario" -->
+                <form class="row g-3 border rounded-3 bg-light shadow-sm my-3 pb-3">
+
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label" aria-placeholder="Seu nome" aria-label="Digitar seu nome">Nome</label>
+                        <input type="email" class="form-control" id="Digite seu nome">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">E-mail</label>
+                        <input type="text" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Assunto</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Assunto">
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">Cidade</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    
+                    
+                    
+                    
+
+                    <div class="col-12 d-flex justify-content-center gap-3">
+                        <button type="submit" class="btn btn-primary"
+                            aria-label="Enviar mensagem do formulario de contato">Enviar</button>
+
+                        <button type="submit" class="btn btn-primary"
+                            aria-label="Limpar formulario de contato">Limpar</button>
+                    </div>
+                </form>
+    </section>
+
+    <!-- footer div.*2.col-md-6
+        fs=font-size 
+    -->
+     <footer class="container bg-light py-2">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+                <p class="fs-3 mb-0">Portifolio</p>
+                <p>&copy;2026. Richard </p>
+            </div>
+            <!-- a*3>img -->
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center gap-3">
+                    <a href="https://github.com/">
+                        <img src="img/github.png" alt="Perfil do Github">
+                    </a>
+                    <a href="https://Linkedin.com/">
+                        <img src="img/linkedin.png" alt="Perfil do Linkedin">
+                    </a>
+                    <a href="https://instagram.com/">
+                        <img src="img/instagram.png" alt="Perfil do Instagram">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+     </footer>
+
+    <script src="bootstrap/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
